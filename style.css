@@ -29,3 +29,109 @@
 
     --transition: all 350ms ease;
 } 
+
+body{
+    font-family: "montserrat", sans-serif;
+    line-height: 1.6;
+    background: var(--color-gray-0);
+    color: var(--color-gray-900);
+    font-size: .9rem;
+    user-select: none;
+}
+
+.container {
+    width: var(--container-w-lg);
+    margin-inline: auto;
+    
+}
+
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+h1. h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+    color: var(--color-gray-900);
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: .8rem;
+}
+
+a {
+    transition: var(--transition);
+}
+
+.btn {
+    background: var(--color-gray-0);
+    border: 2px solid var(--color-gray-100);
+    color: var(--color-gray-900);
+    font-weight: 500;
+    padding: .8rem 1.7rem;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.btn.primary {
+    background: var(--color-primary);
+    border-color: var(--color-primary);
+    color: white;
+}
+
+.btn:hover {
+    background: var(--color-primary-variant);
+    border-color: transparent;
+}
+
+section {
+    padding: 10rem 0;
+
+}
+
+section:nth-child(even) {
+    background: var(--color-gray-50);
+}
+
+section > h1, section > p {
+    text-align: center;
+    margin-top: .5rem;
+    width: 30rem;
+    margin-inline: auto;
+}
+
+
+/* ====================AVBAR============================ */
+nav {
+    background: var(--color-primary);
+    width: 100vw;
+    height: 3rem;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
