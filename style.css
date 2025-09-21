@@ -154,3 +154,45 @@ nav {
     font-size: 1.3rem;
     cursor: pointer;
 }
+
+/* ====================FLOATING NAVBAR============================ */
+
+.floating__nav {
+    position: fixed;
+    left: 50%;
+    bottom: 2rem;
+    transform: translate(-50%);
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur;
+    -webkit-backdrop-filter: blur(10px);
+    width: fit-content;
+    height: 4.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.4rem;
+    padding: .7rem;
+    border-radius: 2.2rem;
+    z-index: 9;
+}
+/* dark theme background */
+.dark-theme-variables .floating__nav {
+    background: rgba(225, 225, 225, 0.1);
+}
+
+
+
+.floating__nav a {
+    color: var(--color-gray-900);
+    width: 3.2rem;
+    aspect-ratio: 1/1;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+
+.floating__nav a.active {
+    background: var(--color-primary);
+    color: white;
+}                                    
