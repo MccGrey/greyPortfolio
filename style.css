@@ -30,6 +30,10 @@
     --transition: all 350ms ease;
 } 
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: "montserrat", sans-serif;
     line-height: 1.6;
