@@ -351,7 +351,7 @@ header {
     grid-template-columns: 1fr;
 }
 
-.resume__right.education li {
+.resume__right.education li h5{
     margin-top: 0;
 }
 
