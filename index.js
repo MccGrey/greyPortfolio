@@ -48,11 +48,11 @@ const experienceBtn = document.querySelector('.experience__btn')
 experienceBtn.addEventListener('click', () => {
     resumeRight.innerHTML = experienceContent;
     resumeRight.className = 'resume__right'
-    experienceBtn.classList.add(`primary`)
+    experienceBtn.classList.add('primary')
       //remove classes from other buttons
-    aboutBtn.classList.remove(`primary`)
-    skillBtn.classList.remove(`primary`)
-    educationBtn.classList.remove(`primary`)
+    aboutBtn.classList.remove('primary')
+    skillBtn.classList.remove('primary')
+    educationBtn.classList.remove('primary')
   
 })
 //set experience content as default
@@ -97,10 +97,11 @@ educationBtn.addEventListener('click', () => {
     resumeRight.classList.add('education')
     educationBtn.classList.add('primary')
       //remove classes from other buttons
-    aboutBtn.classList.remove(`primary`)
-    skillBtn.classList.remove(`primary`)
-    experienceBtn.classList.remove(`primary`)
+    aboutBtn.classList.remove('primary')
+    skillBtn.classList.remove('primary')
+    experienceBtn.classList.remove('primary')
 })
 
 
-//
+//skills
+
